@@ -1,0 +1,488 @@
+[17-Jul-2020 05:28:06 UTC] PHP Warning:  array_key_exists(): The first argument should be either a string or an integer in C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-content\themes\responsive\core\includes\post-custom-meta.php on line 227
+[17-Jul-2020 05:28:06 UTC] PHP Stack trace:
+[17-Jul-2020 05:28:06 UTC] PHP   1. {main}() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\post.php:0
+[17-Jul-2020 05:28:06 UTC] PHP   2. edit_post() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\post.php:227
+[17-Jul-2020 05:28:06 UTC] PHP   3. wp_update_post() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\includes\post.php:409
+[17-Jul-2020 05:28:06 UTC] PHP   4. wp_insert_post() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-includes\post.php:4244
+[17-Jul-2020 05:28:06 UTC] PHP   5. wp_transition_post_status() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-includes\post.php:4054
+[17-Jul-2020 05:28:06 UTC] PHP   6. do_action() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-includes\post.php:4700
+[17-Jul-2020 05:28:06 UTC] PHP   7. WP_Hook->do_action() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-includes\plugin.php:478
+[17-Jul-2020 05:28:06 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-includes\class-wp-hook.php:311
+[17-Jul-2020 05:28:06 UTC] PHP   9. responsive_save_layout_post_metadata() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-includes\class-wp-hook.php:289
+[17-Jul-2020 05:28:06 UTC] PHP  10. array_key_exists() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-content\themes\responsive\core\includes\post-custom-meta.php:227
+[17-Jul-2020 05:28:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-content\themes\responsive\core\includes\post-custom-meta.php:227) in C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\post.php on line 231
+[17-Jul-2020 05:28:06 UTC] PHP Stack trace:
+[17-Jul-2020 05:28:06 UTC] PHP   1. {main}() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\post.php:0
+[17-Jul-2020 05:28:06 UTC] PHP   2. setcookie() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\post.php:231
+[17-Jul-2020 05:28:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-content\themes\responsive\core\includes\post-custom-meta.php:227) in C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-includes\pluggable.php on line 1281
+[17-Jul-2020 05:28:06 UTC] PHP Stack trace:
+[17-Jul-2020 05:28:06 UTC] PHP   1. {main}() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\post.php:0
+[17-Jul-2020 05:28:06 UTC] PHP   2. redirect_post() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\post.php:234
+[17-Jul-2020 05:28:06 UTC] PHP   3. wp_redirect() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\includes\post.php:2015
+[17-Jul-2020 05:28:06 UTC] PHP   4. header() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-includes\pluggable.php:1281
+[17-Jul-2020 05:28:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-content\themes\responsive\core\includes\post-custom-meta.php:227) in C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-includes\pluggable.php on line 1284
+[17-Jul-2020 05:28:06 UTC] PHP Stack trace:
+[17-Jul-2020 05:28:06 UTC] PHP   1. {main}() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\post.php:0
+[17-Jul-2020 05:28:06 UTC] PHP   2. redirect_post() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\post.php:234
+[17-Jul-2020 05:28:06 UTC] PHP   3. wp_redirect() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\includes\post.php:2015
+[17-Jul-2020 05:28:06 UTC] PHP   4. header() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-includes\pluggable.php:1284
+[17-Jul-2020 05:28:17 UTC] PHP Warning:  array_key_exists(): The first argument should be either a string or an integer in C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-content\themes\responsive\core\includes\post-custom-meta.php on line 227
+[17-Jul-2020 05:28:17 UTC] PHP Stack trace:
+[17-Jul-2020 05:28:17 UTC] PHP   1. {main}() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\post.php:0
+[17-Jul-2020 05:28:17 UTC] PHP   2. edit_post() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\post.php:227
+[17-Jul-2020 05:28:17 UTC] PHP   3. wp_update_post() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\includes\post.php:409
+[17-Jul-2020 05:28:17 UTC] PHP   4. wp_insert_post() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-includes\post.php:4244
+[17-Jul-2020 05:28:17 UTC] PHP   5. wp_transition_post_status() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-includes\post.php:4054
+[17-Jul-2020 05:28:17 UTC] PHP   6. do_action() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-includes\post.php:4700
+[17-Jul-2020 05:28:17 UTC] PHP   7. WP_Hook->do_action() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-includes\plugin.php:478
+[17-Jul-2020 05:28:17 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-includes\class-wp-hook.php:311
+[17-Jul-2020 05:28:17 UTC] PHP   9. responsive_save_layout_post_metadata() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-includes\class-wp-hook.php:289
+[17-Jul-2020 05:28:17 UTC] PHP  10. array_key_exists() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-content\themes\responsive\core\includes\post-custom-meta.php:227
+[17-Jul-2020 05:28:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-content\themes\responsive\core\includes\post-custom-meta.php:227) in C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\post.php on line 231
+[17-Jul-2020 05:28:17 UTC] PHP Stack trace:
+[17-Jul-2020 05:28:17 UTC] PHP   1. {main}() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\post.php:0
+[17-Jul-2020 05:28:17 UTC] PHP   2. setcookie() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\post.php:231
+[17-Jul-2020 05:28:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-content\themes\responsive\core\includes\post-custom-meta.php:227) in C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-includes\pluggable.php on line 1281
+[17-Jul-2020 05:28:17 UTC] PHP Stack trace:
+[17-Jul-2020 05:28:17 UTC] PHP   1. {main}() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\post.php:0
+[17-Jul-2020 05:28:17 UTC] PHP   2. redirect_post() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\post.php:234
+[17-Jul-2020 05:28:17 UTC] PHP   3. wp_redirect() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\includes\post.php:2015
+[17-Jul-2020 05:28:17 UTC] PHP   4. header() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-includes\pluggable.php:1281
+[17-Jul-2020 05:28:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-content\themes\responsive\core\includes\post-custom-meta.php:227) in C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-includes\pluggable.php on line 1284
+[17-Jul-2020 05:28:17 UTC] PHP Stack trace:
+[17-Jul-2020 05:28:17 UTC] PHP   1. {main}() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\post.php:0
+[17-Jul-2020 05:28:17 UTC] PHP   2. redirect_post() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\post.php:234
+[17-Jul-2020 05:28:17 UTC] PHP   3. wp_redirect() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\includes\post.php:2015
+[17-Jul-2020 05:28:17 UTC] PHP   4. header() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-includes\pluggable.php:1284
+[17-Jul-2020 06:00:07 UTC] PHP Warning:  array_key_exists(): The first argument should be either a string or an integer in C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-content\themes\responsive\core\includes\post-custom-meta.php on line 227
+[17-Jul-2020 06:00:07 UTC] PHP Stack trace:
+[17-Jul-2020 06:00:07 UTC] PHP   1. {main}() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\post.php:0
+[17-Jul-2020 06:00:07 UTC] PHP   2. edit_post() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\post.php:227
+[17-Jul-2020 06:00:07 UTC] PHP   3. wp_update_post() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\includes\post.php:409
+[17-Jul-2020 06:00:07 UTC] PHP   4. wp_insert_post() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-includes\post.php:4244
+[17-Jul-2020 06:00:07 UTC] PHP   5. wp_transition_post_status() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-includes\post.php:4054
+[17-Jul-2020 06:00:07 UTC] PHP   6. do_action() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-includes\post.php:4700
+[17-Jul-2020 06:00:07 UTC] PHP   7. WP_Hook->do_action() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-includes\plugin.php:478
+[17-Jul-2020 06:00:07 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-includes\class-wp-hook.php:311
+[17-Jul-2020 06:00:07 UTC] PHP   9. responsive_save_layout_post_metadata() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-includes\class-wp-hook.php:289
+[17-Jul-2020 06:00:07 UTC] PHP  10. array_key_exists() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-content\themes\responsive\core\includes\post-custom-meta.php:227
+[17-Jul-2020 06:00:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-content\themes\responsive\core\includes\post-custom-meta.php:227) in C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\post.php on line 231
+[17-Jul-2020 06:00:07 UTC] PHP Stack trace:
+[17-Jul-2020 06:00:07 UTC] PHP   1. {main}() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\post.php:0
+[17-Jul-2020 06:00:07 UTC] PHP   2. setcookie() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\post.php:231
+[17-Jul-2020 06:00:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-content\themes\responsive\core\includes\post-custom-meta.php:227) in C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-includes\pluggable.php on line 1281
+[17-Jul-2020 06:00:07 UTC] PHP Stack trace:
+[17-Jul-2020 06:00:07 UTC] PHP   1. {main}() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\post.php:0
+[17-Jul-2020 06:00:07 UTC] PHP   2. redirect_post() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\post.php:234
+[17-Jul-2020 06:00:07 UTC] PHP   3. wp_redirect() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\includes\post.php:2015
+[17-Jul-2020 06:00:07 UTC] PHP   4. header() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-includes\pluggable.php:1281
+[17-Jul-2020 06:00:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-content\themes\responsive\core\includes\post-custom-meta.php:227) in C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-includes\pluggable.php on line 1284
+[17-Jul-2020 06:00:07 UTC] PHP Stack trace:
+[17-Jul-2020 06:00:07 UTC] PHP   1. {main}() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\post.php:0
+[17-Jul-2020 06:00:07 UTC] PHP   2. redirect_post() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\post.php:234
+[17-Jul-2020 06:00:07 UTC] PHP   3. wp_redirect() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\includes\post.php:2015
+[17-Jul-2020 06:00:07 UTC] PHP   4. header() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-includes\pluggable.php:1284
+[17-Jul-2020 06:00:42 UTC] PHP Warning:  array_key_exists(): The first argument should be either a string or an integer in C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-content\themes\responsive\core\includes\post-custom-meta.php on line 227
+[17-Jul-2020 06:00:42 UTC] PHP Stack trace:
+[17-Jul-2020 06:00:42 UTC] PHP   1. {main}() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\post.php:0
+[17-Jul-2020 06:00:42 UTC] PHP   2. edit_post() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\post.php:227
+[17-Jul-2020 06:00:42 UTC] PHP   3. wp_update_post() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\includes\post.php:409
+[17-Jul-2020 06:00:42 UTC] PHP   4. wp_insert_post() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-includes\post.php:4244
+[17-Jul-2020 06:00:42 UTC] PHP   5. wp_transition_post_status() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-includes\post.php:4054
+[17-Jul-2020 06:00:42 UTC] PHP   6. do_action() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-includes\post.php:4700
+[17-Jul-2020 06:00:42 UTC] PHP   7. WP_Hook->do_action() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-includes\plugin.php:478
+[17-Jul-2020 06:00:42 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-includes\class-wp-hook.php:311
+[17-Jul-2020 06:00:42 UTC] PHP   9. responsive_save_layout_post_metadata() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-includes\class-wp-hook.php:289
+[17-Jul-2020 06:00:42 UTC] PHP  10. array_key_exists() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-content\themes\responsive\core\includes\post-custom-meta.php:227
+[17-Jul-2020 06:00:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-content\themes\responsive\core\includes\post-custom-meta.php:227) in C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\post.php on line 231
+[17-Jul-2020 06:00:42 UTC] PHP Stack trace:
+[17-Jul-2020 06:00:42 UTC] PHP   1. {main}() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\post.php:0
+[17-Jul-2020 06:00:42 UTC] PHP   2. setcookie() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\post.php:231
+[17-Jul-2020 06:00:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-content\themes\responsive\core\includes\post-custom-meta.php:227) in C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-includes\pluggable.php on line 1281
+[17-Jul-2020 06:00:42 UTC] PHP Stack trace:
+[17-Jul-2020 06:00:42 UTC] PHP   1. {main}() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\post.php:0
+[17-Jul-2020 06:00:42 UTC] PHP   2. redirect_post() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\post.php:234
+[17-Jul-2020 06:00:42 UTC] PHP   3. wp_redirect() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\includes\post.php:2015
+[17-Jul-2020 06:00:42 UTC] PHP   4. header() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-includes\pluggable.php:1281
+[17-Jul-2020 06:00:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-content\themes\responsive\core\includes\post-custom-meta.php:227) in C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-includes\pluggable.php on line 1284
+[17-Jul-2020 06:00:42 UTC] PHP Stack trace:
+[17-Jul-2020 06:00:42 UTC] PHP   1. {main}() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\post.php:0
+[17-Jul-2020 06:00:42 UTC] PHP   2. redirect_post() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\post.php:234
+[17-Jul-2020 06:00:42 UTC] PHP   3. wp_redirect() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\includes\post.php:2015
+[17-Jul-2020 06:00:42 UTC] PHP   4. header() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-includes\pluggable.php:1284
+[17-Jul-2020 18:03:01 UTC] PHP Notice:  Undefined variable: GLOBALS in phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php on line 905
+[17-Jul-2020 18:03:01 UTC] PHP Stack trace:
+[17-Jul-2020 18:03:01 UTC] PHP   1. {main}() C:\Users\judi\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[17-Jul-2020 18:03:01 UTC] PHP   2. include() C:\Users\judi\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[17-Jul-2020 18:03:01 UTC] PHP   3. include() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[17-Jul-2020 18:03:01 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[17-Jul-2020 18:03:01 UTC] PHP   5. WP_CLI\Bootstrap\ConfigureRunner->process() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[17-Jul-2020 18:03:01 UTC] PHP   6. WP_CLI\Runner->init_config() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/ConfigureRunner.php:23
+[17-Jul-2020 18:03:01 UTC] PHP Warning:  array_slice() expects parameter 1 to be array, null given in phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php on line 905
+[17-Jul-2020 18:03:01 UTC] PHP Stack trace:
+[17-Jul-2020 18:03:01 UTC] PHP   1. {main}() C:\Users\judi\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[17-Jul-2020 18:03:01 UTC] PHP   2. include() C:\Users\judi\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[17-Jul-2020 18:03:01 UTC] PHP   3. include() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[17-Jul-2020 18:03:01 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[17-Jul-2020 18:03:01 UTC] PHP   5. WP_CLI\Bootstrap\ConfigureRunner->process() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[17-Jul-2020 18:03:01 UTC] PHP   6. WP_CLI\Runner->init_config() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/ConfigureRunner.php:23
+[17-Jul-2020 18:03:01 UTC] PHP   7. array_slice() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:905
+[17-Jul-2020 18:03:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Configurator.php on line 138
+[17-Jul-2020 18:03:01 UTC] PHP Stack trace:
+[17-Jul-2020 18:03:01 UTC] PHP   1. {main}() C:\Users\judi\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[17-Jul-2020 18:03:01 UTC] PHP   2. include() C:\Users\judi\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[17-Jul-2020 18:03:01 UTC] PHP   3. include() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[17-Jul-2020 18:03:01 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[17-Jul-2020 18:03:01 UTC] PHP   5. WP_CLI\Bootstrap\ConfigureRunner->process() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[17-Jul-2020 18:03:01 UTC] PHP   6. WP_CLI\Runner->init_config() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/ConfigureRunner.php:23
+[17-Jul-2020 18:03:01 UTC] PHP   7. WP_CLI\Configurator->parse_args() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:927
+[17-Jul-2020 18:03:01 UTC] PHP   8. WP_CLI\Configurator::extract_assoc() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Configurator.php:121
+[17-Jul-2020 18:03:01 UTC] PHP Notice:  Undefined variable: GLOBALS in phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php on line 905
+[17-Jul-2020 18:03:01 UTC] PHP Stack trace:
+[17-Jul-2020 18:03:01 UTC] PHP   1. {main}() C:\Users\judi\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[17-Jul-2020 18:03:01 UTC] PHP   2. include() C:\Users\judi\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[17-Jul-2020 18:03:01 UTC] PHP   3. include() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[17-Jul-2020 18:03:01 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[17-Jul-2020 18:03:01 UTC] PHP   5. WP_CLI\Bootstrap\ConfigureRunner->process() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[17-Jul-2020 18:03:01 UTC] PHP   6. WP_CLI\Runner->init_config() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/ConfigureRunner.php:23
+[17-Jul-2020 18:03:01 UTC] PHP Warning:  array_slice() expects parameter 1 to be array, null given in phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php on line 905
+[17-Jul-2020 18:03:01 UTC] PHP Stack trace:
+[17-Jul-2020 18:03:01 UTC] PHP   1. {main}() C:\Users\judi\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[17-Jul-2020 18:03:01 UTC] PHP   2. include() C:\Users\judi\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[17-Jul-2020 18:03:01 UTC] PHP   3. include() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[17-Jul-2020 18:03:01 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[17-Jul-2020 18:03:01 UTC] PHP   5. WP_CLI\Bootstrap\ConfigureRunner->process() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[17-Jul-2020 18:03:01 UTC] PHP   6. WP_CLI\Runner->init_config() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/ConfigureRunner.php:23
+[17-Jul-2020 18:03:01 UTC] PHP   7. array_slice() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:905
+[17-Jul-2020 18:03:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Configurator.php on line 138
+[17-Jul-2020 18:03:01 UTC] PHP Stack trace:
+[17-Jul-2020 18:03:01 UTC] PHP   1. {main}() C:\Users\judi\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[17-Jul-2020 18:03:01 UTC] PHP   2. include() C:\Users\judi\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[17-Jul-2020 18:03:01 UTC] PHP   3. include() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[17-Jul-2020 18:03:01 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[17-Jul-2020 18:03:01 UTC] PHP   5. WP_CLI\Bootstrap\ConfigureRunner->process() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[17-Jul-2020 18:03:01 UTC] PHP   6. WP_CLI\Runner->init_config() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/ConfigureRunner.php:23
+[17-Jul-2020 18:03:01 UTC] PHP   7. WP_CLI\Configurator->parse_args() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:927
+[17-Jul-2020 18:03:01 UTC] PHP   8. WP_CLI\Configurator::extract_assoc() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Configurator.php:121
+[17-Jul-2020 18:03:01 UTC] PHP Notice:  Undefined variable: GLOBALS in phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php on line 905
+[17-Jul-2020 18:03:01 UTC] PHP Stack trace:
+[17-Jul-2020 18:03:01 UTC] PHP   1. {main}() C:\Users\judi\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[17-Jul-2020 18:03:01 UTC] PHP   2. include() C:\Users\judi\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[17-Jul-2020 18:03:01 UTC] PHP   3. include() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[17-Jul-2020 18:03:01 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[17-Jul-2020 18:03:01 UTC] PHP   5. WP_CLI\Bootstrap\ConfigureRunner->process() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[17-Jul-2020 18:03:01 UTC] PHP   6. WP_CLI\Runner->init_config() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/ConfigureRunner.php:23
+[17-Jul-2020 18:03:01 UTC] PHP Warning:  array_slice() expects parameter 1 to be array, null given in phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php on line 905
+[17-Jul-2020 18:03:01 UTC] PHP Stack trace:
+[17-Jul-2020 18:03:01 UTC] PHP   1. {main}() C:\Users\judi\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[17-Jul-2020 18:03:01 UTC] PHP   2. include() C:\Users\judi\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[17-Jul-2020 18:03:01 UTC] PHP   3. include() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[17-Jul-2020 18:03:01 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[17-Jul-2020 18:03:01 UTC] PHP   5. WP_CLI\Bootstrap\ConfigureRunner->process() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[17-Jul-2020 18:03:01 UTC] PHP   6. WP_CLI\Runner->init_config() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/ConfigureRunner.php:23
+[17-Jul-2020 18:03:01 UTC] PHP   7. array_slice() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:905
+[17-Jul-2020 18:03:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Configurator.php on line 138
+[17-Jul-2020 18:03:01 UTC] PHP Stack trace:
+[17-Jul-2020 18:03:01 UTC] PHP   1. {main}() C:\Users\judi\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[17-Jul-2020 18:03:01 UTC] PHP   2. include() C:\Users\judi\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[17-Jul-2020 18:03:01 UTC] PHP   3. include() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[17-Jul-2020 18:03:01 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[17-Jul-2020 18:03:01 UTC] PHP   5. WP_CLI\Bootstrap\ConfigureRunner->process() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[17-Jul-2020 18:03:01 UTC] PHP   6. WP_CLI\Runner->init_config() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/ConfigureRunner.php:23
+[17-Jul-2020 18:03:01 UTC] PHP   7. WP_CLI\Configurator->parse_args() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:927
+[17-Jul-2020 18:03:01 UTC] PHP   8. WP_CLI\Configurator::extract_assoc() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Configurator.php:121
+[17-Jul-2020 18:03:02 UTC] PHP Notice:  Undefined variable: GLOBALS in phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php on line 905
+[17-Jul-2020 18:03:02 UTC] PHP Stack trace:
+[17-Jul-2020 18:03:02 UTC] PHP   1. {main}() C:\Users\judi\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[17-Jul-2020 18:03:02 UTC] PHP   2. include() C:\Users\judi\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[17-Jul-2020 18:03:02 UTC] PHP   3. include() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[17-Jul-2020 18:03:02 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[17-Jul-2020 18:03:02 UTC] PHP   5. WP_CLI\Bootstrap\ConfigureRunner->process() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[17-Jul-2020 18:03:02 UTC] PHP   6. WP_CLI\Runner->init_config() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/ConfigureRunner.php:23
+[17-Jul-2020 18:03:02 UTC] PHP Warning:  array_slice() expects parameter 1 to be array, null given in phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php on line 905
+[17-Jul-2020 18:03:02 UTC] PHP Stack trace:
+[17-Jul-2020 18:03:02 UTC] PHP   1. {main}() C:\Users\judi\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[17-Jul-2020 18:03:02 UTC] PHP   2. include() C:\Users\judi\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[17-Jul-2020 18:03:02 UTC] PHP   3. include() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[17-Jul-2020 18:03:02 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[17-Jul-2020 18:03:02 UTC] PHP   5. WP_CLI\Bootstrap\ConfigureRunner->process() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[17-Jul-2020 18:03:02 UTC] PHP   6. WP_CLI\Runner->init_config() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/ConfigureRunner.php:23
+[17-Jul-2020 18:03:02 UTC] PHP   7. array_slice() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:905
+[17-Jul-2020 18:03:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Configurator.php on line 138
+[17-Jul-2020 18:03:02 UTC] PHP Stack trace:
+[17-Jul-2020 18:03:02 UTC] PHP   1. {main}() C:\Users\judi\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[17-Jul-2020 18:03:02 UTC] PHP   2. include() C:\Users\judi\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[17-Jul-2020 18:03:02 UTC] PHP   3. include() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[17-Jul-2020 18:03:02 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[17-Jul-2020 18:03:02 UTC] PHP   5. WP_CLI\Bootstrap\ConfigureRunner->process() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[17-Jul-2020 18:03:02 UTC] PHP   6. WP_CLI\Runner->init_config() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/ConfigureRunner.php:23
+[17-Jul-2020 18:03:02 UTC] PHP   7. WP_CLI\Configurator->parse_args() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:927
+[17-Jul-2020 18:03:02 UTC] PHP   8. WP_CLI\Configurator::extract_assoc() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Configurator.php:121
+[17-Jul-2020 18:03:02 UTC] PHP Notice:  Undefined index: argv in phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php on line 1024
+[17-Jul-2020 18:03:02 UTC] PHP Stack trace:
+[17-Jul-2020 18:03:02 UTC] PHP   1. {main}() C:\Users\judi\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[17-Jul-2020 18:03:02 UTC] PHP   2. include() C:\Users\judi\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[17-Jul-2020 18:03:02 UTC] PHP   3. include() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[17-Jul-2020 18:03:02 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[17-Jul-2020 18:03:02 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[17-Jul-2020 18:03:02 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[17-Jul-2020 18:03:02 UTC] PHP Warning:  implode(): Invalid arguments passed in phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php on line 1024
+[17-Jul-2020 18:03:02 UTC] PHP Stack trace:
+[17-Jul-2020 18:03:02 UTC] PHP   1. {main}() C:\Users\judi\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[17-Jul-2020 18:03:02 UTC] PHP   2. include() C:\Users\judi\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[17-Jul-2020 18:03:02 UTC] PHP   3. include() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[17-Jul-2020 18:03:02 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[17-Jul-2020 18:03:02 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[17-Jul-2020 18:03:02 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[17-Jul-2020 18:03:02 UTC] PHP   7. implode() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1024
+[17-Jul-2020 18:03:02 UTC] PHP Notice:  Undefined index: argv in phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php on line 1024
+[17-Jul-2020 18:03:02 UTC] PHP Stack trace:
+[17-Jul-2020 18:03:02 UTC] PHP   1. {main}() C:\Users\judi\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[17-Jul-2020 18:03:02 UTC] PHP   2. include() C:\Users\judi\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[17-Jul-2020 18:03:02 UTC] PHP   3. include() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[17-Jul-2020 18:03:02 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[17-Jul-2020 18:03:02 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[17-Jul-2020 18:03:02 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[17-Jul-2020 18:03:02 UTC] PHP Warning:  implode(): Invalid arguments passed in phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php on line 1024
+[17-Jul-2020 18:03:02 UTC] PHP Stack trace:
+[17-Jul-2020 18:03:02 UTC] PHP   1. {main}() C:\Users\judi\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[17-Jul-2020 18:03:02 UTC] PHP   2. include() C:\Users\judi\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[17-Jul-2020 18:03:02 UTC] PHP   3. include() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[17-Jul-2020 18:03:02 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[17-Jul-2020 18:03:02 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[17-Jul-2020 18:03:02 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[17-Jul-2020 18:03:02 UTC] PHP   7. implode() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1024
+[17-Jul-2020 18:03:02 UTC] PHP Notice:  Undefined index: argv in phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php on line 1024
+[17-Jul-2020 18:03:02 UTC] PHP Stack trace:
+[17-Jul-2020 18:03:02 UTC] PHP   1. {main}() C:\Users\judi\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[17-Jul-2020 18:03:02 UTC] PHP   2. include() C:\Users\judi\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[17-Jul-2020 18:03:02 UTC] PHP   3. include() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[17-Jul-2020 18:03:02 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[17-Jul-2020 18:03:02 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[17-Jul-2020 18:03:02 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[17-Jul-2020 18:03:02 UTC] PHP Warning:  implode(): Invalid arguments passed in phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php on line 1024
+[17-Jul-2020 18:03:02 UTC] PHP Stack trace:
+[17-Jul-2020 18:03:02 UTC] PHP   1. {main}() C:\Users\judi\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[17-Jul-2020 18:03:02 UTC] PHP   2. include() C:\Users\judi\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[17-Jul-2020 18:03:02 UTC] PHP   3. include() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[17-Jul-2020 18:03:02 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[17-Jul-2020 18:03:02 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[17-Jul-2020 18:03:02 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[17-Jul-2020 18:03:02 UTC] PHP   7. implode() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1024
+[17-Jul-2020 18:03:03 UTC] PHP Notice:  Undefined index: argv in phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php on line 1024
+[17-Jul-2020 18:03:03 UTC] PHP Stack trace:
+[17-Jul-2020 18:03:03 UTC] PHP   1. {main}() C:\Users\judi\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[17-Jul-2020 18:03:03 UTC] PHP   2. include() C:\Users\judi\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[17-Jul-2020 18:03:03 UTC] PHP   3. include() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[17-Jul-2020 18:03:03 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[17-Jul-2020 18:03:03 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[17-Jul-2020 18:03:03 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[17-Jul-2020 18:03:03 UTC] PHP Warning:  implode(): Invalid arguments passed in phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php on line 1024
+[17-Jul-2020 18:03:03 UTC] PHP Stack trace:
+[17-Jul-2020 18:03:03 UTC] PHP   1. {main}() C:\Users\judi\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[17-Jul-2020 18:03:03 UTC] PHP   2. include() C:\Users\judi\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[17-Jul-2020 18:03:03 UTC] PHP   3. include() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[17-Jul-2020 18:03:03 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[17-Jul-2020 18:03:03 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[17-Jul-2020 18:03:03 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[17-Jul-2020 18:03:03 UTC] PHP   7. implode() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1024
+[17-Jul-2020 18:03:05 UTC] PHP Notice:  Undefined variable: GLOBALS in phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php on line 905
+[17-Jul-2020 18:03:05 UTC] PHP Stack trace:
+[17-Jul-2020 18:03:05 UTC] PHP   1. {main}() C:\Users\judi\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[17-Jul-2020 18:03:05 UTC] PHP   2. include() C:\Users\judi\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[17-Jul-2020 18:03:05 UTC] PHP   3. include() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[17-Jul-2020 18:03:05 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[17-Jul-2020 18:03:05 UTC] PHP   5. WP_CLI\Bootstrap\ConfigureRunner->process() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[17-Jul-2020 18:03:05 UTC] PHP   6. WP_CLI\Runner->init_config() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/ConfigureRunner.php:23
+[17-Jul-2020 18:03:05 UTC] PHP Warning:  array_slice() expects parameter 1 to be array, null given in phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php on line 905
+[17-Jul-2020 18:03:05 UTC] PHP Stack trace:
+[17-Jul-2020 18:03:05 UTC] PHP   1. {main}() C:\Users\judi\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[17-Jul-2020 18:03:05 UTC] PHP   2. include() C:\Users\judi\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[17-Jul-2020 18:03:05 UTC] PHP   3. include() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[17-Jul-2020 18:03:05 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[17-Jul-2020 18:03:05 UTC] PHP   5. WP_CLI\Bootstrap\ConfigureRunner->process() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[17-Jul-2020 18:03:05 UTC] PHP   6. WP_CLI\Runner->init_config() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/ConfigureRunner.php:23
+[17-Jul-2020 18:03:05 UTC] PHP   7. array_slice() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:905
+[17-Jul-2020 18:03:05 UTC] PHP Warning:  Invalid argument supplied for foreach() in phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Configurator.php on line 138
+[17-Jul-2020 18:03:05 UTC] PHP Stack trace:
+[17-Jul-2020 18:03:05 UTC] PHP   1. {main}() C:\Users\judi\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[17-Jul-2020 18:03:05 UTC] PHP   2. include() C:\Users\judi\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[17-Jul-2020 18:03:05 UTC] PHP   3. include() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[17-Jul-2020 18:03:05 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[17-Jul-2020 18:03:05 UTC] PHP   5. WP_CLI\Bootstrap\ConfigureRunner->process() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[17-Jul-2020 18:03:05 UTC] PHP   6. WP_CLI\Runner->init_config() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/ConfigureRunner.php:23
+[17-Jul-2020 18:03:05 UTC] PHP   7. WP_CLI\Configurator->parse_args() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:927
+[17-Jul-2020 18:03:05 UTC] PHP   8. WP_CLI\Configurator::extract_assoc() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Configurator.php:121
+[17-Jul-2020 18:03:05 UTC] PHP Notice:  Undefined variable: GLOBALS in phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php on line 905
+[17-Jul-2020 18:03:05 UTC] PHP Stack trace:
+[17-Jul-2020 18:03:05 UTC] PHP   1. {main}() C:\Users\judi\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[17-Jul-2020 18:03:05 UTC] PHP   2. include() C:\Users\judi\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[17-Jul-2020 18:03:05 UTC] PHP   3. include() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[17-Jul-2020 18:03:05 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[17-Jul-2020 18:03:05 UTC] PHP   5. WP_CLI\Bootstrap\ConfigureRunner->process() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[17-Jul-2020 18:03:05 UTC] PHP   6. WP_CLI\Runner->init_config() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/ConfigureRunner.php:23
+[17-Jul-2020 18:03:05 UTC] PHP Warning:  array_slice() expects parameter 1 to be array, null given in phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php on line 905
+[17-Jul-2020 18:03:05 UTC] PHP Stack trace:
+[17-Jul-2020 18:03:05 UTC] PHP   1. {main}() C:\Users\judi\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[17-Jul-2020 18:03:05 UTC] PHP   2. include() C:\Users\judi\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[17-Jul-2020 18:03:05 UTC] PHP   3. include() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[17-Jul-2020 18:03:05 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[17-Jul-2020 18:03:05 UTC] PHP   5. WP_CLI\Bootstrap\ConfigureRunner->process() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[17-Jul-2020 18:03:05 UTC] PHP   6. WP_CLI\Runner->init_config() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/ConfigureRunner.php:23
+[17-Jul-2020 18:03:05 UTC] PHP   7. array_slice() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:905
+[17-Jul-2020 18:03:05 UTC] PHP Warning:  Invalid argument supplied for foreach() in phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Configurator.php on line 138
+[17-Jul-2020 18:03:05 UTC] PHP Stack trace:
+[17-Jul-2020 18:03:05 UTC] PHP   1. {main}() C:\Users\judi\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[17-Jul-2020 18:03:05 UTC] PHP   2. include() C:\Users\judi\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[17-Jul-2020 18:03:05 UTC] PHP   3. include() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[17-Jul-2020 18:03:05 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[17-Jul-2020 18:03:05 UTC] PHP   5. WP_CLI\Bootstrap\ConfigureRunner->process() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[17-Jul-2020 18:03:05 UTC] PHP   6. WP_CLI\Runner->init_config() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/ConfigureRunner.php:23
+[17-Jul-2020 18:03:05 UTC] PHP   7. WP_CLI\Configurator->parse_args() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:927
+[17-Jul-2020 18:03:05 UTC] PHP   8. WP_CLI\Configurator::extract_assoc() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Configurator.php:121
+[17-Jul-2020 18:03:05 UTC] PHP Notice:  Undefined index: argv in phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php on line 1024
+[17-Jul-2020 18:03:05 UTC] PHP Stack trace:
+[17-Jul-2020 18:03:05 UTC] PHP   1. {main}() C:\Users\judi\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[17-Jul-2020 18:03:05 UTC] PHP   2. include() C:\Users\judi\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[17-Jul-2020 18:03:05 UTC] PHP   3. include() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[17-Jul-2020 18:03:05 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[17-Jul-2020 18:03:05 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[17-Jul-2020 18:03:05 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[17-Jul-2020 18:03:05 UTC] PHP Warning:  implode(): Invalid arguments passed in phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php on line 1024
+[17-Jul-2020 18:03:05 UTC] PHP Stack trace:
+[17-Jul-2020 18:03:05 UTC] PHP   1. {main}() C:\Users\judi\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[17-Jul-2020 18:03:05 UTC] PHP   2. include() C:\Users\judi\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[17-Jul-2020 18:03:05 UTC] PHP   3. include() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[17-Jul-2020 18:03:05 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[17-Jul-2020 18:03:05 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[17-Jul-2020 18:03:05 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[17-Jul-2020 18:03:05 UTC] PHP   7. implode() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1024
+[17-Jul-2020 18:03:05 UTC] PHP Notice:  Undefined index: argv in phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php on line 1024
+[17-Jul-2020 18:03:05 UTC] PHP Stack trace:
+[17-Jul-2020 18:03:05 UTC] PHP   1. {main}() C:\Users\judi\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[17-Jul-2020 18:03:05 UTC] PHP   2. include() C:\Users\judi\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[17-Jul-2020 18:03:05 UTC] PHP   3. include() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[17-Jul-2020 18:03:05 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[17-Jul-2020 18:03:05 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[17-Jul-2020 18:03:05 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[17-Jul-2020 18:03:05 UTC] PHP Warning:  implode(): Invalid arguments passed in phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php on line 1024
+[17-Jul-2020 18:03:05 UTC] PHP Stack trace:
+[17-Jul-2020 18:03:05 UTC] PHP   1. {main}() C:\Users\judi\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[17-Jul-2020 18:03:05 UTC] PHP   2. include() C:\Users\judi\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[17-Jul-2020 18:03:05 UTC] PHP   3. include() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[17-Jul-2020 18:03:05 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[17-Jul-2020 18:03:05 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[17-Jul-2020 18:03:05 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[17-Jul-2020 18:03:05 UTC] PHP   7. implode() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1024
+[17-Jul-2020 18:03:27 UTC] PHP Notice:  Undefined variable: GLOBALS in phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php on line 905
+[17-Jul-2020 18:03:27 UTC] PHP Stack trace:
+[17-Jul-2020 18:03:27 UTC] PHP   1. {main}() C:\Users\judi\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[17-Jul-2020 18:03:27 UTC] PHP   2. include() C:\Users\judi\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[17-Jul-2020 18:03:27 UTC] PHP   3. include() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[17-Jul-2020 18:03:27 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[17-Jul-2020 18:03:27 UTC] PHP   5. WP_CLI\Bootstrap\ConfigureRunner->process() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[17-Jul-2020 18:03:27 UTC] PHP   6. WP_CLI\Runner->init_config() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/ConfigureRunner.php:23
+[17-Jul-2020 18:03:27 UTC] PHP Warning:  array_slice() expects parameter 1 to be array, null given in phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php on line 905
+[17-Jul-2020 18:03:27 UTC] PHP Stack trace:
+[17-Jul-2020 18:03:27 UTC] PHP   1. {main}() C:\Users\judi\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[17-Jul-2020 18:03:27 UTC] PHP   2. include() C:\Users\judi\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[17-Jul-2020 18:03:27 UTC] PHP   3. include() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[17-Jul-2020 18:03:27 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[17-Jul-2020 18:03:27 UTC] PHP   5. WP_CLI\Bootstrap\ConfigureRunner->process() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[17-Jul-2020 18:03:27 UTC] PHP   6. WP_CLI\Runner->init_config() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/ConfigureRunner.php:23
+[17-Jul-2020 18:03:27 UTC] PHP   7. array_slice() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:905
+[17-Jul-2020 18:03:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Configurator.php on line 138
+[17-Jul-2020 18:03:27 UTC] PHP Stack trace:
+[17-Jul-2020 18:03:27 UTC] PHP   1. {main}() C:\Users\judi\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[17-Jul-2020 18:03:27 UTC] PHP   2. include() C:\Users\judi\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[17-Jul-2020 18:03:27 UTC] PHP   3. include() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[17-Jul-2020 18:03:27 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[17-Jul-2020 18:03:27 UTC] PHP   5. WP_CLI\Bootstrap\ConfigureRunner->process() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[17-Jul-2020 18:03:27 UTC] PHP   6. WP_CLI\Runner->init_config() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/ConfigureRunner.php:23
+[17-Jul-2020 18:03:27 UTC] PHP   7. WP_CLI\Configurator->parse_args() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:927
+[17-Jul-2020 18:03:27 UTC] PHP   8. WP_CLI\Configurator::extract_assoc() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Configurator.php:121
+[17-Jul-2020 18:03:28 UTC] PHP Notice:  Undefined index: argv in phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php on line 1024
+[17-Jul-2020 18:03:28 UTC] PHP Stack trace:
+[17-Jul-2020 18:03:28 UTC] PHP   1. {main}() C:\Users\judi\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[17-Jul-2020 18:03:28 UTC] PHP   2. include() C:\Users\judi\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[17-Jul-2020 18:03:28 UTC] PHP   3. include() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[17-Jul-2020 18:03:28 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[17-Jul-2020 18:03:28 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[17-Jul-2020 18:03:28 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[17-Jul-2020 18:03:28 UTC] PHP Warning:  implode(): Invalid arguments passed in phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php on line 1024
+[17-Jul-2020 18:03:28 UTC] PHP Stack trace:
+[17-Jul-2020 18:03:28 UTC] PHP   1. {main}() C:\Users\judi\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[17-Jul-2020 18:03:28 UTC] PHP   2. include() C:\Users\judi\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[17-Jul-2020 18:03:28 UTC] PHP   3. include() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[17-Jul-2020 18:03:28 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[17-Jul-2020 18:03:28 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[17-Jul-2020 18:03:28 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[17-Jul-2020 18:03:28 UTC] PHP   7. implode() phar://C:/Users/judi/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1024
+[17-Jul-2020 18:07:17 UTC] PHP Warning:  array_key_exists(): The first argument should be either a string or an integer in C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-content\themes\responsive\core\includes\post-custom-meta.php on line 227
+[17-Jul-2020 18:07:17 UTC] PHP Stack trace:
+[17-Jul-2020 18:07:17 UTC] PHP   1. {main}() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\post.php:0
+[17-Jul-2020 18:07:17 UTC] PHP   2. edit_post() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\post.php:227
+[17-Jul-2020 18:07:17 UTC] PHP   3. wp_update_post() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\includes\post.php:409
+[17-Jul-2020 18:07:17 UTC] PHP   4. wp_insert_post() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-includes\post.php:4244
+[17-Jul-2020 18:07:17 UTC] PHP   5. wp_transition_post_status() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-includes\post.php:4054
+[17-Jul-2020 18:07:17 UTC] PHP   6. do_action() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-includes\post.php:4700
+[17-Jul-2020 18:07:17 UTC] PHP   7. WP_Hook->do_action() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-includes\plugin.php:478
+[17-Jul-2020 18:07:17 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-includes\class-wp-hook.php:311
+[17-Jul-2020 18:07:17 UTC] PHP   9. responsive_save_layout_post_metadata() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-includes\class-wp-hook.php:289
+[17-Jul-2020 18:07:17 UTC] PHP  10. array_key_exists() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-content\themes\responsive\core\includes\post-custom-meta.php:227
+[17-Jul-2020 18:07:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-content\themes\responsive\core\includes\post-custom-meta.php:227) in C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\post.php on line 231
+[17-Jul-2020 18:07:17 UTC] PHP Stack trace:
+[17-Jul-2020 18:07:17 UTC] PHP   1. {main}() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\post.php:0
+[17-Jul-2020 18:07:17 UTC] PHP   2. setcookie() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\post.php:231
+[17-Jul-2020 18:07:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-content\themes\responsive\core\includes\post-custom-meta.php:227) in C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-includes\pluggable.php on line 1281
+[17-Jul-2020 18:07:17 UTC] PHP Stack trace:
+[17-Jul-2020 18:07:17 UTC] PHP   1. {main}() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\post.php:0
+[17-Jul-2020 18:07:17 UTC] PHP   2. redirect_post() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\post.php:234
+[17-Jul-2020 18:07:17 UTC] PHP   3. wp_redirect() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\includes\post.php:2015
+[17-Jul-2020 18:07:17 UTC] PHP   4. header() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-includes\pluggable.php:1281
+[17-Jul-2020 18:07:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-content\themes\responsive\core\includes\post-custom-meta.php:227) in C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-includes\pluggable.php on line 1284
+[17-Jul-2020 18:07:17 UTC] PHP Stack trace:
+[17-Jul-2020 18:07:17 UTC] PHP   1. {main}() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\post.php:0
+[17-Jul-2020 18:07:17 UTC] PHP   2. redirect_post() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\post.php:234
+[17-Jul-2020 18:07:17 UTC] PHP   3. wp_redirect() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\includes\post.php:2015
+[17-Jul-2020 18:07:17 UTC] PHP   4. header() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-includes\pluggable.php:1284
+[17-Jul-2020 18:07:43 UTC] PHP Warning:  array_key_exists(): The first argument should be either a string or an integer in C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-content\themes\responsive\core\includes\post-custom-meta.php on line 227
+[17-Jul-2020 18:07:43 UTC] PHP Stack trace:
+[17-Jul-2020 18:07:43 UTC] PHP   1. {main}() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\post.php:0
+[17-Jul-2020 18:07:43 UTC] PHP   2. edit_post() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\post.php:227
+[17-Jul-2020 18:07:43 UTC] PHP   3. wp_update_post() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\includes\post.php:409
+[17-Jul-2020 18:07:43 UTC] PHP   4. wp_insert_post() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-includes\post.php:4244
+[17-Jul-2020 18:07:43 UTC] PHP   5. wp_transition_post_status() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-includes\post.php:4054
+[17-Jul-2020 18:07:43 UTC] PHP   6. do_action() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-includes\post.php:4700
+[17-Jul-2020 18:07:43 UTC] PHP   7. WP_Hook->do_action() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-includes\plugin.php:478
+[17-Jul-2020 18:07:43 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-includes\class-wp-hook.php:311
+[17-Jul-2020 18:07:43 UTC] PHP   9. responsive_save_layout_post_metadata() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-includes\class-wp-hook.php:289
+[17-Jul-2020 18:07:43 UTC] PHP  10. array_key_exists() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-content\themes\responsive\core\includes\post-custom-meta.php:227
+[17-Jul-2020 18:07:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-content\themes\responsive\core\includes\post-custom-meta.php:227) in C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\post.php on line 231
+[17-Jul-2020 18:07:44 UTC] PHP Stack trace:
+[17-Jul-2020 18:07:44 UTC] PHP   1. {main}() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\post.php:0
+[17-Jul-2020 18:07:44 UTC] PHP   2. setcookie() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\post.php:231
+[17-Jul-2020 18:07:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-content\themes\responsive\core\includes\post-custom-meta.php:227) in C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-includes\pluggable.php on line 1281
+[17-Jul-2020 18:07:44 UTC] PHP Stack trace:
+[17-Jul-2020 18:07:44 UTC] PHP   1. {main}() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\post.php:0
+[17-Jul-2020 18:07:44 UTC] PHP   2. redirect_post() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\post.php:234
+[17-Jul-2020 18:07:44 UTC] PHP   3. wp_redirect() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\includes\post.php:2015
+[17-Jul-2020 18:07:44 UTC] PHP   4. header() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-includes\pluggable.php:1281
+[17-Jul-2020 18:07:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-content\themes\responsive\core\includes\post-custom-meta.php:227) in C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-includes\pluggable.php on line 1284
+[17-Jul-2020 18:07:44 UTC] PHP Stack trace:
+[17-Jul-2020 18:07:44 UTC] PHP   1. {main}() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\post.php:0
+[17-Jul-2020 18:07:44 UTC] PHP   2. redirect_post() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\post.php:234
+[17-Jul-2020 18:07:44 UTC] PHP   3. wp_redirect() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\includes\post.php:2015
+[17-Jul-2020 18:07:44 UTC] PHP   4. header() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-includes\pluggable.php:1284
+[17-Jul-2020 18:09:31 UTC] PHP Warning:  array_key_exists(): The first argument should be either a string or an integer in C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-content\themes\responsive\core\includes\post-custom-meta.php on line 227
+[17-Jul-2020 18:09:31 UTC] PHP Stack trace:
+[17-Jul-2020 18:09:31 UTC] PHP   1. {main}() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\post.php:0
+[17-Jul-2020 18:09:31 UTC] PHP   2. edit_post() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\post.php:227
+[17-Jul-2020 18:09:31 UTC] PHP   3. wp_update_post() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-admin\includes\post.php:409
+[17-Jul-2020 18:09:31 UTC] PHP   4. wp_insert_post() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-includes\post.php:4244
+[17-Jul-2020 18:09:31 UTC] PHP   5. wp_transition_post_status() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-includes\post.php:4054
+[17-Jul-2020 18:09:31 UTC] PHP   6. do_action() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-includes\post.php:4700
+[17-Jul-2020 18:09:31 UTC] PHP   7. WP_Hook->do_action() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-includes\plugin.php:478
+[17-Jul-2020 18:09:31 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-includes\class-wp-hook.php:311
+[17-Jul-2020 18:09:31 UTC] PHP   9. responsive_save_layout_post_metadata() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-includes\class-wp-hook.php:289
+[17-Jul-2020 18:09:31 UTC] PHP  10. array_key_exists() C:\Users\judi\Local Sites\competence-4-dogs\app\public\wp-content\themes\responsive\core\includes\post-custom-meta.php:227
